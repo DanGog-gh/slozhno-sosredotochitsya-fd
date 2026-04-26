@@ -52,12 +52,13 @@
   top: 10px;
   right: 19px;
   line-height: 25px;
+  text-transform: uppercase;
 }
 
 .rec::after {
   content: "";
   display: inline-block;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: var(--accent-color);
   border: 4.5px solid var(--accent-color);
   margin-inline-start: 10px;
@@ -178,7 +179,7 @@
 }
 
 .text-link {
-  text-shadow: 1px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
 }
 
@@ -277,16 +278,16 @@
     padding-block: 60px;
     padding-inline: 20px;
   }
-  .main__section:first-child {
+  .main__section-why {
     grid-template-columns: 1fr 2fr;
   }
-  .main__section:nth-child(2) {
+  .main__section-what {
     grid-template-columns: 1fr;
   }
-  .main__section:nth-child(2) .main__section-title {
+  .main__section-what .main__section-title {
     max-inline-size: 236px;
   }
-  .main__section:nth-child(3) {
+  .main__section-how {
     grid-template-columns: 236px 1fr;
   }
   .gallery__list {
@@ -313,17 +314,17 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
-  .main__section:first-child {
+  .main__section-why {
     grid-template-columns: 315px 1fr;
   }
-  .main__section:nth-child(2) .main__section-card-list {
+  .main__section-what .main__section-card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .main__section:nth-child(2) .main__section-title {
+  .main__section-what .main__section-title {
     max-inline-size: 315px;
   }
-  .main__section:nth-child(3) {
+  .main__section-how {
     grid-template-columns: 315px 1fr;
   }
 }

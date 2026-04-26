@@ -14,8 +14,7 @@
   --decoration-color: #353430;
   --menu-color: var(--text-color);
   --hover-color: #32312D66;
-  --main-font-family: 'IBM Plex mono';
-  --main-font-size: 18px;
+  --description-text-color: #353430;
 }
 
 .theme-light .rec {
@@ -33,8 +32,7 @@
     --decoration-color: #353430;
     --menu-color: var(--text-color);
     --hover-color: #32312D66;
-    --main-font-family: 'IBM Plex mono';
-    --main-font-size: 18px;
+    --description-text-color: #353430;
   }
   .rec {
     display: none;
